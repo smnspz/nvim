@@ -1,0 +1,22 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "javascript", "typescript", "html"],
+  "diagnostic.checkCurrentLine": true, 
+  "languageserver": {
+    "lua": {
+      "command": "lua-lsp",
+      "filetypes": ["lua"]
+    },
+    "bash": {
+      "command": "bash-language-server",
+      "args": ["start"],
+      "filetypes": ["sh", "zsh"],
+      "ignoredRootPaths": []
+    }
+  },
+  "explorer.file.showHiddenFiles": true,
+  "explorer.width": 40,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.previewAction.onHover": false,
+  "explorer.keyMappingMode": "default",
+  "emmet.showAbbreviationSuggestions": true
+}
