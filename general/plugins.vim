@@ -7,6 +7,9 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'joshdick/onedark.vim'
 Plug 'scrooloose/NERDTree'
+Plug 'sbdchd/neoformat'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 if has("nvim")
   Plug 'neovim/nvim-lspconfig'

@@ -8,4 +8,7 @@ set smartindent
 set guifont=Fira\ Code
 let g:python3_host_prog = '/usr/local/bin/python3'
 let g:python_host_prog = '/usr/bin/python'
+let g:neoformat_try_node_exe = 1
+
+autocmd BufWritePre *.js Neoformat
 
